@@ -9,3 +9,19 @@
     margin-bottom: 0;
 }
 
+
+
+.grupo-radio{
+    width: 30%;
+    display: inline-block;    
+    vertical-align: top;
+}
+
+.grupo-radio:first-child{
+  margin-top: 0;  
+}
+.contato-select{
+    width:50%;
+    display: inline-block;  
+    vertical-align: top;
+}
