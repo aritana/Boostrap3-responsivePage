@@ -9,8 +9,33 @@
 </head>
 
 <body>
-    <section class="container">
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                        data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">TopHome Architecture</a>
+                </div>
+                <div id="bs-example-navbar-collapse-1" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#sobre-nos">About us</a></li>
+                        <li><a href="#our-projects">Nossos Projetos</a></li>
+                        <li><a href="#customer-testimonials">Depoimentos</a></li>
+                        <li><a href="#institutional-video">Video</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <section id="sobre-nos" class="container">
         <h2> About us </h2>
         <img src="assets/img/empresa.jpg" class="img-responsive">
 
@@ -65,7 +90,7 @@
 
 
     <section class="container">
-        <h2>Nossos Projetos</h2>
+        <h2 id="our-projects">Our Projects</h2>
         <figure class="thumbnail">
             <img alt="Picture of Castle Home" src="assets/img/projetos/casa-castelo.png" class="img-responsive">
             <figcaption class="caption">
@@ -112,7 +137,7 @@
     </section>
 
     <section class="container">
-        <h3 class="title-testimonial">Depoimentos de Clientes</h3>
+        <h3 id="customer-testimonials" class="title-testimonial">Depoimentos de Clientes</h3>
 
         <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
@@ -160,7 +185,7 @@
     </section>
 
     <section class="container">
-        <h2>Vídeo Institucional</h2>
+        <h2 id="institutional-video">Institutional video</h2>
         <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item" width="560" height="315"
                 src="https://www.youtube.com/embed/6PpdlhZecVs" title="YouTube video player" frameborder="0"
@@ -222,17 +247,17 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
 </body>
 
-<footer class="container">
+<footer id="contact" class="container">
     <address>
         <strong>TopHome architecture</strong><br>
         Rua Vergueiro, 3185, Vila Mariana<br>
         São Paulo, SP<br>
         <abbr title="Phone">P:</abbr> (11) 5571-2751 or 5083-3884
-      </address>
-      
-      <address>
+    </address>
+
+    <address>
         <a href="mailto:#">topHome@alura.com.b</a>
-      </address>
+    </address>
 </footer>
 
 </html>
