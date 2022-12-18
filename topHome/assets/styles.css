@@ -10,8 +10,6 @@
     margin-bottom: 0;
 }
 
-
-
 .grupo-radio {
     width: 30%;
     display: inline-block;
@@ -37,4 +35,35 @@ footer {
 
 footer address:last-child {
     margin-bottom: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+header {
+    background-image: url(img/castelo.jpg);
+    height: 100%;
+    background-size: cover;
+    background-position: top center;
+    /*y,x*/
+}
+
+header h1{
+    margin-top:0 ;
+    margin-bottom: 0;
+    position: relative;
+}
+
+.TopCasaFina-banner{
+  color: #FFF;  
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 80%;
+  border-radius: 8px;
+  position:absolute;
+  top:50%;
+  left: 50%;
+  transform:translate(-50%,-50%);
 }
